@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:url('../imagens/fundo02.jpg') no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+@media (min-height: 400px) {
+    h1 {
+        font-size: 25pt;
+        margin: 10px auto;
+    }
+    h2 {
+        font-size: 20pt;
+        margin: 10px auto;
+    }
+    p{
+        font-size: 16px;
+        margin: 10px auto;
+    }
+}
+h1 {
+    font-size: 38pt;
+    margin: 10px auto;
+}
+h2 {
+    font-size: 20pt;
+    margin: 10px auto;
+}
+p{
+    font-size: 16px;
+    margin: 10px auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px 30px 40px;
+    background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.479));
+}
+select {
+    background: transparent;
+    color: rgb(231, 231, 231);
+    font-size: 16px;
+    border-radius: 2px;
+    padding: 5px;
+    
+}
+option {
+    background: transparent;
+    color: black;
+    text-align: center;
+}
+#button-entrar {
+    background: red;
+    width: 100px;
+    padding: 8px;
+    font-size: 18px;
+    color: rgb(231, 231, 231);
+    border: 0;
+    border-radius: 3px;
+}
+main {
+    text-align: center;
+    
+}
+.container {
+    background: rgba(0, 0, 0, 0.479);
+    justify-content: center;
+
+}
+#box-1 h1 {
+    padding-top: 20vh;
+    margin: auto auto;
+}
+
+input {
+    border: 0;
+    max-width: 40%;
+    padding: 18px;
+    margin-bottom: 40vh;
+    font-size: 17px;
+    color: gray;
+}
+#button-email {
+    border: 0;
+    color: rgb(231, 231, 231);
+    padding: 18px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 0px 3px 3px 0px;
+}
+#button-email:hover {
+    background: rgb(207, 0, 0);
+}
