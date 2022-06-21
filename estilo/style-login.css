@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../imagens/fundo02.jpg') no-repeat fixed;
+    background-size: cover;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+header {
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container-login {
+    background: rgba(0, 0, 0, 0.685);
+    max-width: 350px;
+    margin: 20px auto;
+    padding: 60px;
+    border-radius: 8px;
+}
+.form-login {
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+}
+.form-login h1 {
+    margin-bottom: 40px;
+}
+.login input{
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    background: rgb(53, 53, 53);
+    font-size: 16px;
+}
+#login-button{
+    width: 110%;
+    border-radius: 4px;
+    margin-top: 40px;
+    padding: 15px;
+    background: red;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.checkbox {
+    color: #727272;
+}
+
+.checkbox a {
+    color: #727272;
+    display: flex;
+    justify-content: flex-end;
+}
+.checkbox a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+input #ok-check{
+    background: #727272;
+}
+.novo-aqui {
+    color: #727272;
+}
+.novo-aqui p:nth-child(1) {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.novo-aqui p a:nth-child(1):hover {
+    text-decoration: underline;
+    
+}
+.novo-aqui p:nth-child(2){
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+.novo-aqui p a:nth-child(2) {
+    color: #0076fd;
+}
+@media (max-width: 420px){
+    
+}
