@@ -87,5 +87,32 @@ input #ok-check{
     color: #0076fd;
 }
 @media (max-width: 420px){
-    
+    body {
+        background: #141414;
+    }
+    .container-login {
+        background: #141414;
+        padding: 10px;
+        width: 100vw;
+        height: 100vh;
+    }
+    .form-login h1 {
+        margin-bottom: 10px;
+    }
+    .login input{
+        
+        width: 100%;
+        border-radius: 4px;
+        background: rgb(53, 53, 53);
+        font-size: 16px;
+    }
+    #login-button{
+        width: 100%;
+        border-radius: 4px;
+        
+        
+        background: red;
+        color: #fff;
+        font-weight: bolder;
+    }
 }
