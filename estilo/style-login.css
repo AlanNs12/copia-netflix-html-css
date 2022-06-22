@@ -98,6 +98,7 @@ input #ok-check{
         width: 100%;
     }
     #login-button{
-        width: 100%;
+        border-radius: 2px;
+        width: 110%;
     }
 }
