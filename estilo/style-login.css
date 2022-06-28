@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
 }
+::selection {
+    background: #141414;
+    color: white;
+}
 body{
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../imagens/fundo02.jpg') no-repeat fixed;
     background-size: cover;
@@ -16,7 +20,10 @@ a{
     text-decoration: none;
     color: white;
 }
-
+::placeholder {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
 .container-login {
     background: rgba(0, 0, 0, 0.685);
     max-width: 350px;
@@ -52,10 +59,6 @@ a{
     font-weight: bolder;
 }
 
-.checkbox {
-    color: #727272;
-}
-
 .checkbox a {
     color: #727272;
     display: flex;
@@ -64,9 +67,6 @@ a{
 .checkbox a:hover {
     text-decoration: underline;
     color: #fff;
-}
-input #ok-check{
-    background: #727272;
 }
 .novo-aqui {
     color: #727272;
